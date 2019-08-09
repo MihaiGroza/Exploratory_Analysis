@@ -1,7 +1,9 @@
 import pandas as pd
-#from scipy import stats
+from scipy import stats
 from yahoo_fin.stock_info import get_data
 import matplotlib.pyplot as plt
+import researchpy as rp
+
 
 tickers = ["SPY","AAPL","TSLA"]
 
@@ -17,12 +19,24 @@ print(portfolio_data.head())
 
 portfolio_data.plot.scatter("SPY", "AAPL")
 
-plt.show()
+
+#Homogeneity Test
+print(stats.levene(portfolio_data["SPY"],portfolio_data["AAPL"]))
+#plt.show()
 
 
+#Pearson Correlation Test
+print(stats.pearsonr(portfolio_data["SPY"], portfolio_data["AAPL"]))
+
+#Spearman Correlation Test
+
+print(stats.spearmanr(portfolio_data["SPY"], portfolio_data["AAPL"]))
 
 
+#correlation matrix
 
- 
+print(rp.corr_pair(portfolio_data[["SPY","AAPL","TSLA"]]))
+
+
 
 
