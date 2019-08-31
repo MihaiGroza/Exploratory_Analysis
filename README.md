@@ -1,6 +1,6 @@
 # Statistical Tests
 
-Correlation
+##Correlation
 
 H0 hypothesis: There is not a relationship between Apple and Sp500
 
@@ -26,13 +26,13 @@ Spearman rank correlation method
 
 Conclusion: There is a high relationship between Apple and the overall market. 
 
-Chi Square Test
+##Chi Square Test
 
 The H0 (Null Hypothesis): Trading outcome is independent of mondays and non-mondays.
 
 The H1 (Alternative Hypothesis): Trading outcome is not independent of mondays and non-mondays.
 
-Expected matrix
+###Expected matrix
 
               is_green  is_red
 is_monday                  
