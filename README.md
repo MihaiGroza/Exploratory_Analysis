@@ -49,7 +49,7 @@ The H1 (Alternative Hypothesis): Trading outcome is not independent of mondays a
 
 Results:(statistic=0.8007550294850146, pvalue=0.8492864317723491)
 
-Conclusion: Cannot reject the null hypothesis
+Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is independent of the day the stock is traded on.  (In this case, we used the stock prices of Apple)
 
 
 ## Linear Regression
