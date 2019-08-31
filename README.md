@@ -1,6 +1,6 @@
 # Statistical Tests
 
-##Correlation
+## Correlation
 
 H0 hypothesis: There is not a relationship between Apple and Sp500
 
@@ -11,9 +11,10 @@ HA hypothesis: There is a relationship between variable Apple and Sp500
 
 It seems that there is a linear relationship, however we must check for homogeneity of variance
 
-Levene's Test of Homogeneity 
+### Levene's Test of Homogeneity 
 
-LeveneResult(statistic=35.46732173033491, pvalue=4.904150098936615e-09)
+(statistic=35.46732173033491, pvalue=4.904150098936615e-09)
+
 The test is significant. Our variances are not homogenous.
 We should opt for a correlation test that doesn't assume homogeneity such as a spearman instead of a pearson.
 
@@ -26,20 +27,20 @@ Spearman rank correlation method
 
 Conclusion: There is a high relationship between Apple and the overall market. 
 
-##Chi Square Test
+## Chi Square Test
 
 The H0 (Null Hypothesis): Trading outcome is independent of mondays and non-mondays.
 
 The H1 (Alternative Hypothesis): Trading outcome is not independent of mondays and non-mondays.
 
-###Expected matrix
+### Expected matrix
 
               is_green  is_red
 is_monday                  
 False         112.608  91.392
 True          25.392   20.608 
 
-Observed matrix
+### Observed matrix
 
              is_green  is_red
 is_monday                  
@@ -51,6 +52,6 @@ Results:(statistic=0.8007550294850146, pvalue=0.8492864317723491)
 Conclusion: Cannot reject the null hypothesis
 
 
-Linear Regression
+## Linear Regression
 
 
