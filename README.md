@@ -35,17 +35,17 @@ The H1 (Alternative Hypothesis): Trading outcome is not independent of mondays a
 
 ### Expected matrix
 
-              is_green  is_red
-is_monday                  
-False         112.608  91.392
-True          25.392   20.608 
+|is_monday    | is_green |is_red|
+|-------------| ---------|------|
+|False        | 112.608  |91.392|
+|True         | 25.392   |20.608| 
 
 ### Observed matrix
 
-             is_green  is_red
-is_monday                  
-False         110.0    95.0
-True           28.0    18.0
+|is_monday   | is_green  |is_red|
+|------------|-----------|------|
+|False       |  110.0    |95.0  |
+|True        |   28.0    |18.0  |
 
 Results:(statistic=0.8007550294850146, pvalue=0.8492864317723491)
 
