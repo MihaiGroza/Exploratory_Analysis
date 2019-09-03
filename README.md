@@ -7,7 +7,7 @@ H0 hypothesis: There is not a relationship between Apple and Sp500
 HA hypothesis: There is a relationship between variable Apple and Sp500
 
 
-![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/corellation.png)
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/corellation.png)
 
 It seems that there is a linear relationship, however we must check for homogeneity of variance
 
