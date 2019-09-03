@@ -61,7 +61,7 @@ Goal: Find most impactful predictors of insurance premiums
 
   smoker charges|gender charges| region charges
   :------------:|:------------:|:--------------:
-  ![](smoker_charges.png)|![](sex_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
+  ![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/smoker_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/sex_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
 
 
 
