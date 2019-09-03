@@ -56,6 +56,13 @@ Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is
 
 Data: https://www.kaggle.com/mirichoi0218/insurance
 Goal: Find most impactful predictors of insurance premiums
+Overview:
+age    sex    bmi children smoker    region   charges
+44   male 22.135        2     no northeast  8302.536
+47   male 29.800        3    yes southwest 25309.489
+28   male 35.435        0     no northeast  3268.847
+23 female 34.865        0     no northeast  2899.489
+34 female 27.720        0     no southeast  4415.159
 
 ### Exploratory Analysis
 
