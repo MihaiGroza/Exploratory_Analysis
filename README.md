@@ -59,9 +59,13 @@ Goal: Find most impactful predictors of insurance premiums
 
 ### Exploratory Analysis
 
+(click to enlarge)
+
   smoker charges|gender charges| region charges
   :------------:|:------------:|:--------------:
   ![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/smoker_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/sex_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
+
+According to our exploratory anaylsis, we see that gender and region do not impact the premiums. However, smoking is a strong predictor.
 
 
 
