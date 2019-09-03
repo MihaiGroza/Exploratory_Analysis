@@ -54,4 +54,13 @@ Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is
 
 ## Linear Regression
 
+Data: https://www.kaggle.com/mirichoi0218/insurance
+Goal: Find most impactful predictors of insurance premiums
+
+###Exploratory Analysis
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/age_charges.png)
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/bmi_charges.png)
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/sex_charges.png)
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/smoker_charges.png)
 
