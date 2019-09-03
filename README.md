@@ -57,12 +57,7 @@ Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is
 Data: https://www.kaggle.com/mirichoi0218/insurance
 Goal: Find most impactful predictors of insurance premiums
 Overview:
-age    sex    bmi children smoker    region   charges
-44   male 22.135        2     no northeast  8302.536
-47   male 29.800        3    yes southwest 25309.489
-28   male 35.435        0     no northeast  3268.847
-23 female 34.865        0     no northeast  2899.489
-34 female 27.720        0     no southeast  4415.159
+
 
 ### Exploratory Analysis
 
@@ -74,6 +69,29 @@ age    sex    bmi children smoker    region   charges
 
 According to our exploratory anaylsis, we see that gender and region do not impact the premiums. However, smoking is a strong predictor.
 
+### Normality Test
 
+![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/Probability%20Plot.png)
 
+The residuals of our model is not normally distributed
 
+### Homoscedasticity Test using Bruesch-Pagan
+
+Lagrange multiplier statistic = 121.74360137568986
+p-value = 1.446717553918174e-22               
+
+The variance of our data is not homogenous. We will account for this in the model re-run.
+
+### Results
+
+|                |       coef |   std err |         z  |   P>|z|  |  [0.025    |  0.975]   |
+|------------------------------------------------------------------------------------
+|Intercept       | -1.207e+04 |  1062.898 |   -11.356  |    0.000 |  -1.42e+04 |  -9986.611|
+|age             |   256.8564 |    11.961 |    21.474  |    0.000 |    233.412 |    280.300|
+|bmi             |   339.1935 |    31.879 |    10.640  |    0.000 |    276.711 |    401.676|
+|sex_female      |   131.3144 |   334.971 |     0.392  |    0.695 |   -525.217 |    787.846|
+|smoker_yes      |  2.385e+04 |   578.079 |    41.255  |    0.000 |   2.27e+04 |    2.5e+04|
+|children        |   475.5005 |   131.009 |     3.630  |    0.000 |    218.727 |    732.274|
+|region_northwest|  -352.9639 |   486.616 |    -0.725  |    0.468 |  -1306.714 |    600.786|
+|region_southeast| -1035.0220 |   503.426 |    -2.056  |    0.040 |  -2021.718 |    -48.326|
+|region_southwest|  -960.0510 |   463.014 |    -2.073  |    0.038 |  -1867.541 |    -52.561|
