@@ -57,10 +57,12 @@ Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is
 Data: https://www.kaggle.com/mirichoi0218/insurance
 Goal: Find most impactful predictors of insurance premiums
 
-###Exploratory Analysis
+### Exploratory Analysis
 
-![alt-text-1](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/age_charges.png) "title-1") ![alt-text-2](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/bmi_charges.png "title-2")![alt-text-3](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png "title-3")
+  smoker charges|gender charges| region charges
+  :------------:|:------------:|:--------------:
+  ![](smoker_charges.png)|![](sex_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
 
-![alt-text-1](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/sex_charges.png") ![alt-text-2](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/smoker_charges.png "title-2")
+
 
 
