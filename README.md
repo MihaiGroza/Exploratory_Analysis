@@ -78,6 +78,7 @@ The residuals of our model is not normally distributed
 ### Homoscedasticity Test using Bruesch-Pagan
 
 Lagrange multiplier statistic = 121.74360137568986
+
 p-value = 1.446717553918174e-22               
 
 The variance of our data is not homogenous. We will account for this in the model re-run.
@@ -95,3 +96,5 @@ The variance of our data is not homogenous. We will account for this in the mode
 |region_northwest|  -352.9639 |   486.616 |    -0.725  |    0.468 |  -1306.714 |    600.786|
 |region_southeast| -1035.0220 |   503.426 |    -2.056  |    0.040 |  -2021.718 |    -48.326|
 |region_southwest|  -960.0510 |   463.014 |    -2.073  |    0.038 |  -1867.541 |    -52.561|
+
+Conclusion: According to our test, region and gender have little impact on insurance premiums
