@@ -19,15 +19,15 @@ The test is significant. Our variances are not homogenous.
 We should opt for a correlation test that doesn't assume homogeneity such as a spearman instead of a pearson.
 
 
-Pearson correlation method (assumes homogeneity of variance)
+#### Pearson correlation method (assumes homogeneity of variance)
 
 (correlation=0.7478342928339387, pvalue=5.107535442948088e-46)
 
-Spearman rank correlation method
+#### Spearman rank correlation method
 
 (correlation=0.7321835035153023, pvalue=2.989768108578345e-43)
 
-Conclusion: There is a high relationship between Apple and the overall market. 
+Conclusion: There is a high corellation between Apple and the overall market. 
 
 ## Chi Square Test
 
