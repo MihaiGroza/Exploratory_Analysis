@@ -11,7 +11,7 @@ HA hypothesis: There is a relationship between variable Apple and Sp500
 
 It seems that there is a linear relationship, however we must check for homogeneity of variance
 
-### Levene's Test of Homogeneity 
+#### Levene's Test of Homogeneity 
 
 (statistic=35.46732173033491, pvalue=4.904150098936615e-09)
 
@@ -20,9 +20,11 @@ We should opt for a correlation test that doesn't assume homogeneity such as a s
 
 
 Pearson correlation method (assumes homogeneity of variance)
+
 (correlation=0.7478342928339387, pvalue=5.107535442948088e-46)
 
 Spearman rank correlation method
+
 (correlation=0.7321835035153023, pvalue=2.989768108578345e-43)
 
 Conclusion: There is a high relationship between Apple and the overall market. 
@@ -55,7 +57,9 @@ Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is
 ## Linear Regression
 
 Data: https://www.kaggle.com/mirichoi0218/insurance
+
 Goal: Find most impactful predictors of insurance premiums
+
 Overview:
 
 
