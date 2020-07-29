@@ -1,6 +1,6 @@
 # Exploratory Analysis
 
-## Chi Square Test
+## Chi Square Test| Stock Data
 
 The H0 (Null Hypothesis): Trading outcome is independent of mondays and non-mondays.
 
@@ -54,7 +54,7 @@ We should opt for a correlation test that doesn't assume homogeneity such as a s
 Conclusion: There is a high corellation between Apple and the overall market. 
 
 
-## Linear Regression
+## Insurance Premiums
 
 Data: https://www.kaggle.com/mirichoi0218/insurance
 
