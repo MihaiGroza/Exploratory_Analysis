@@ -1,33 +1,4 @@
-# Statistical Tests
-
-## Correlation
-
-H0 hypothesis: There is not a relationship between Apple and Sp500
-
-HA hypothesis: There is a relationship between variable Apple and Sp500
-
-
-![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/corellation.png)
-
-It seems that there is a linear relationship, however we must check for homogeneity of variance
-
-#### Levene's Test of Homogeneity 
-
-(statistic=35.46732173033491, pvalue=4.904150098936615e-09)
-
-The test is significant. Our variances are not homogenous.
-We should opt for a correlation test that doesn't assume homogeneity such as a spearman instead of a pearson.
-
-
-#### Pearson correlation method (assumes homogeneity of variance)
-
-(correlation=0.7478342928339387, pvalue=5.107535442948088e-46)
-
-#### Spearman rank correlation method
-
-(correlation=0.7321835035153023, pvalue=2.989768108578345e-43)
-
-Conclusion: There is a high corellation between Apple and the overall market. 
+# Exploratory Analysis
 
 ## Chi Square Test
 
@@ -53,6 +24,35 @@ Results:(statistic=0.8007550294850146, pvalue=0.8492864317723491)
 
 Conclusion: Cannot reject the null hypothesis. Wether a day trades in the red is independent of the day the stock is traded on.  (In this case, we used the stock prices of Apple)
 
+## Correlation
+
+H0 hypothesis: There is not a relationship between Apple and Sp500
+
+HA hypothesis: There is a relationship between variable Apple and Sp500
+
+
+![Image of model](/Graphs/corellation.png)
+
+It seems that there is a linear relationship, however we must check for homogeneity of variance
+
+#### Levene's Test of Homogeneity 
+
+(statistic=35.46732173033491, pvalue=4.904150098936615e-09)
+
+The test is significant. Our variances are not homogenous.
+We should opt for a correlation test that doesn't assume homogeneity such as a spearman instead of a pearson.
+
+
+#### Pearson correlation method (assumes homogeneity of variance)
+
+(correlation=0.7478342928339387, pvalue=5.107535442948088e-46)
+
+#### Spearman rank correlation method
+
+(correlation=0.7321835035153023, pvalue=2.989768108578345e-43)
+
+Conclusion: There is a high corellation between Apple and the overall market. 
+
 
 ## Linear Regression
 
@@ -69,13 +69,13 @@ Overview:
 
   smoker charges|gender charges| region charges
   :------------:|:------------:|:--------------:
-  ![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/smoker_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/sex_charges.png)|![](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/region_charges.png)
+  ![](/Graphs/smoker_charges.png)|![](/Graphs/sex_charges.png)|![](/Graphs/region_charges.png)
 
 According to our exploratory anaylsis, we see that gender and region do not impact the premiums. However, smoking is a strong predictor.
 
 ### Normality Test
 
-![Image of model](https://github.com/MihaiGroza/statistical_tests/blob/master/Graphs/Probability%20Plot.png)
+![Image of model](/Graphs/Probability%20Plot.png)
 
 The residuals of our model is not normally distributed
 
